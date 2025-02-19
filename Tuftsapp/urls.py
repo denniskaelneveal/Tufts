@@ -4,7 +4,7 @@ from django.urls import path,include
 from Tuftsapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/',views.index ),
-    path('about/',views.about ),
-    path('gallery/',views.gallery ),
+    path('',views.index,name='home
+    path('about/',views.about,name='about'
+    path('gallery/',views.gallery,name='gallery'
 ]

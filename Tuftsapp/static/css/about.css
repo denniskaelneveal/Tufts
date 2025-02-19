@@ -1,0 +1,24 @@
+#main{
+    display: flex;
+
+}
+#main img{
+    margin-left: 90px;
+    height: 200px;
+    width: 200px;
+
+
+}
+#main p{
+    padding: 40px;
+}
+#main h3{
+    text-align: center;
+}
+button {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+}
