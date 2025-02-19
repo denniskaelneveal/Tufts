@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gallery page</title>
+    {% load static %}
+    <style>
+        h1{
+            text-align: center;
+            background-color: black;
+            color: white;
+
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>products offered at tufts</h1>
+<img src="{% static 'assets/img.png' %}" alt="">
+<img src="{% static 'assets/img_1.png' %}" alt="">
+<img src="{% static 'assets/img_2.png' %}" alt="">
+<img src="{% static 'assets/img_3.png' %}" alt="">
+<img src="{% static 'assets/img_4.png' %}" alt="">
+<img src="{% static 'assets/img_5.png' %}" alt="">
+</body>
+</html>
